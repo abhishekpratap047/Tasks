@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: "Raleway";
+    font-size: large    ;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+#bodywrapper{
+    background-color: rgb(118, 209, 156);
+    margin: 0 auto;
+    width : 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  10px;
+    padding: 20px;
+}
+
+#createwrapper{ 
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    padding-right: 10px;
+    margin-bottom: 10px;    
+}
+
+#addtextbox{
+    flex: 4;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid black;
+}
+
+#addbutton{
+    flex: 1;
+    height: 50px; 
+    font-size: 40px;
+    color: rgb(41, 190, 141);
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    border: 2px solid black;
+}
+
+#mainwrapper{
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+}
+
