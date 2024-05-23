@@ -1,4 +1,4 @@
-Simple tasks webapp using HTML/CSS/JS.
-Uses localstorage to save data in the browser.
-Test it out :
-https://abhishekpratap047.github.io/Tasks/
+Simple tasks webapp using HTML/CSS/JS.<br>
+Uses localstorage to save data in the browser.<br>
+Test it out :<br>
+<b>https://abhishekpratap047.github.io/Tasks/</b>
